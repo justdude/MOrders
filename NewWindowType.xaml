@@ -1,0 +1,13 @@
+﻿<Window x:Class="MOrders.NewWindowType"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="NewWindowType" Height="137.594" Width="300">
+    <Grid>
+        <Grid HorizontalAlignment="Left" Height="107.594" VerticalAlignment="Top" Width="292">
+            <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="37.729,22.495,0,0" VerticalAlignment="Top"/>
+            <RadioButton Content="RadioButton" HorizontalAlignment="Left" Margin="37.729,52.946,0,0" VerticalAlignment="Top"/>
+            <Button Content="Button" HorizontalAlignment="Left" Margin="195.722,71.805,0,0" VerticalAlignment="Top" Width="86.278" Height="25.789"/>
+        </Grid>
+
+    </Grid>
+</Window>

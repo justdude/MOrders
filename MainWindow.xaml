@@ -20,11 +20,14 @@
                             <RowDefinition></RowDefinition>
                             <RowDefinition Height="35"></RowDefinition>
                         </Grid.RowDefinitions>
-                        <TextBox Grid.Row="0" Margin="10,0,0,10"></TextBox>
+                        <TextBox Name="textBox1" Grid.Row="0" Margin="10,0,0,10"></TextBox>
+                        <StackPanel Grid.Row="1">
+                            <Button x:Name="okButton1" Height="37" Margin="232,0,0,0" Click="okButton1_Click"></Button>
+                        </StackPanel>
                     </Grid>
                 </Grid>
             </TabItem>
-            <TabItem Header="Order">
+            <TabItem Header="Costumers" Height="22.96" VerticalAlignment="Top">
                 <Grid ShowGridLines="True">
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="189*"/>
@@ -56,7 +59,8 @@
                     </Grid>
                 </Grid>
             </TabItem>
-
+            <TabItem Header="..." Height="22.96" VerticalAlignment="Top">
+            </TabItem>
         </TabControl>
 
     </Grid>
